@@ -5883,7 +5883,7 @@ gatsby-plugin-gatsby-cloud@^4.7.0:
     lodash "^4.17.21"
     webpack-assets-manifest "^5.1.0"
 
-gatsby-plugin-image@^2.6.0:
+gatsby-plugin-image@^2.10.1:
   version "2.10.1"
   resolved "https://registry.yarnpkg.com/gatsby-plugin-image/-/gatsby-plugin-image-2.10.1.tgz#7b9eda7334487dd0e4693996cf3664835e9c356e"
   integrity sha512-ZFcaKkVz6h18jRzP9HHCcXzyIc/Gj57NZSycOWFxW9KLqkq3NZXVx3mkV9EQ+rup8r3RLiJu/AXEorZEy7iAhQ==
@@ -5927,7 +5927,7 @@ gatsby-plugin-postcss@^5.6.0:
     "@babel/runtime" "^7.15.4"
     postcss-loader "^4.3.0"
 
-gatsby-plugin-sharp@^4.6.0:
+gatsby-plugin-sharp@^4.10.2:
   version "4.10.2"
   resolved "https://registry.yarnpkg.com/gatsby-plugin-sharp/-/gatsby-plugin-sharp-4.10.2.tgz#253a49c452a7409ceece4e541e4770e61a306bcc"
   integrity sha512-MWzPTYnu7HZ0kctHtkLbZOe6ZGUqSsNATO3lWlSBIFpeimxaPF5iHBiu1CX/ofz4pwt7VamtIzAV28VB6sjONw==
@@ -6014,10 +6014,28 @@ gatsby-source-filesystem@4.5.1:
     valid-url "^1.0.9"
     xstate "^4.26.1"
 
-gatsby-source-strapi@2.0.0-alpha.3:
-  version "2.0.0-alpha.3"
-  resolved "https://registry.yarnpkg.com/gatsby-source-strapi/-/gatsby-source-strapi-2.0.0-alpha.3.tgz#09f710eed7b2845c1965085447a7e9130bcaed91"
-  integrity sha512-SudRx0Ezeenq6D5poHIt/TyTTCyXFDisZRQ51zRsLWhwAJeq/xn8W5ShVYmBgRsqXboV2b8RiLpg7Sz/QhSuKw==
+gatsby-source-filesystem@^4.10.1:
+  version "4.10.1"
+  resolved "https://registry.yarnpkg.com/gatsby-source-filesystem/-/gatsby-source-filesystem-4.10.1.tgz#c513fadb3cedb138ff28ba351ffd264524a0c28d"
+  integrity sha512-qdOWS234l6QyEN0M8tfdGQF530pK9nSiaT1JfSzZV7Bl9psX9SdsuOtfZ2AV0QVt1BQB7C53E/BNGaxMLCcnUg==
+  dependencies:
+    "@babel/runtime" "^7.15.4"
+    chokidar "^3.5.2"
+    file-type "^16.5.3"
+    fs-extra "^10.0.0"
+    gatsby-core-utils "^3.10.1"
+    got "^9.6.0"
+    md5-file "^5.0.0"
+    mime "^2.5.2"
+    pretty-bytes "^5.4.1"
+    progress "^2.0.3"
+    valid-url "^1.0.9"
+    xstate "^4.26.1"
+
+gatsby-source-strapi@^2.0.0:
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/gatsby-source-strapi/-/gatsby-source-strapi-2.0.0.tgz#026aca563e4d31c1b2e6e8d34ddc78b5866d5fa3"
+  integrity sha512-CBt3UymN44GCzs8BpYtbwbBykxqzL0YIu7JsyUl3tGXldlKdQrM5Cp9zsBtFtaUHWMFxwKVJUMohpdhv+ukL/A==
   dependencies:
     axios "0.24.0"
     commonmark "^0.30.0"
@@ -6044,7 +6062,7 @@ gatsby-telemetry@^3.10.1:
     lodash "^4.17.21"
     node-fetch "^2.6.7"
 
-gatsby-transformer-remark@^5.6.0:
+gatsby-transformer-remark@^5.10.2:
   version "5.10.2"
   resolved "https://registry.yarnpkg.com/gatsby-transformer-remark/-/gatsby-transformer-remark-5.10.2.tgz#a406f09e7d1ef55553a97d0e289aebfcd93caff5"
   integrity sha512-buGrhty/HhpxAq1hXL9t5U4SR7M7h2vsLbWLoTTjmezFPfrbZvfuso0zfCV6q7ED3XbwCBf/4Cey6rDSSYDXtQ==
@@ -6072,7 +6090,7 @@ gatsby-transformer-remark@^5.6.0:
     unist-util-select "^3.0.4"
     unist-util-visit "^2.0.3"
 
-gatsby-transformer-sharp@^4.6.0:
+gatsby-transformer-sharp@^4.10.0:
   version "4.10.0"
   resolved "https://registry.yarnpkg.com/gatsby-transformer-sharp/-/gatsby-transformer-sharp-4.10.0.tgz#9db793a219d0fa85b7d33cb37b32aba63df4c58a"
   integrity sha512-Gp9eRkGQOrkoD+yJgK2ZdXuVbet/opxdEnuTZ6BhLEVhfTwOnMEaui6ZqO0cKJ7/NYlptO38p+C5cyizC0FRYA==
