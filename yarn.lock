@@ -31,6 +31,11 @@
   resolved "https://registry.yarnpkg.com/@sideway/pinpoint/-/pinpoint-2.0.0.tgz#cff8ffadc372ad29fd3f78277aeb29e632cc70df"
   integrity sha512-RNiOoTPkptFtSVzQevY/yWtZwf/RxyVnPy/OcA9HBM3MlGDnBEYL5B41H0MTn0Uec8Hi+2qUtTfG2WWZBmMejQ==
 
+"@strapi/plugin-gatsby-preview@^0.1.0":
+  version "0.1.0"
+  resolved "https://registry.yarnpkg.com/@strapi/plugin-gatsby-preview/-/plugin-gatsby-preview-0.1.0.tgz#929e13fc403e19d9561279de25eaa389b5887ad6"
+  integrity sha512-7pVbsYQFaWSwsYeTBKqHxFK4DdDOX97Ub/3m9ZlXzQpEWXxBBeRX3SZnxVC9+PmHckZXPbmXppvDyjtjLWtAcA==
+
 ansi-styles@^3.2.1:
   version "3.2.1"
   resolved "https://registry.yarnpkg.com/ansi-styles/-/ansi-styles-3.2.1.tgz#41fbb20243e50b12be0f04b8dedbf07520ce841d"
